@@ -1,5 +1,5 @@
 const button = document.querySelector("button");
 
 button.addEventListener("click", () => {
-  alert("You pressed the button");
+  window.location.href = "https://www.pixiv.net/";
 });
