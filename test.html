@@ -3,12 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>My Simple GitHub Page</title>
+
+    <!-- 直接写在 HTML 里的 CSS -->
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+            font-family: Arial, sans-serif;
+
+            /* 让内容居中 */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        button {
+            background-color: crimson;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: darkred;
+        }
+    </style>
 </head>
 <body>
+
     <h1>Welcome to My GitHub Page</h1>
     
-    <p>This is a simple webpage created with pure HTML. It contains only a title, a paragraph of text, and a button as requested.</p>
+    <p>
+        This is a simple webpage created with pure HTML.
+        It contains only a title, a paragraph of text,
+        and a button as requested.
+    </p>
     
     <button>Click Here</button>
+
 </body>
 </html>
